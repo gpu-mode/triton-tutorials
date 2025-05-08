@@ -2,7 +2,7 @@ Work in Progress!
 
 General summary:
 work through progressive kernels to learn Triton with:  
-a - vector add  
+a - [vector add](https://github.com/gpu-mode/triton-tutorials/blob/main/kernels/vector_addition_tutorial.py)    
 b - [simple matmul](https://github.com/gpu-mode/triton-tutorials/blob/main/kernels/matmul_outer_k.py) (outer k loop and tiled)   
 c - fused softmax (in pytorch, then in Triton)  
 d - softmax with backward  
