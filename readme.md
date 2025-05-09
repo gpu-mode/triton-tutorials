@@ -10,6 +10,9 @@ e - flash attention 2
 f - group gemm with backwards (bf16, then fp8)    
 g - MoE permute / unpermute kernels
 
+## Getting Started:
+Lessons are arranged in order, starting with lesson_1 etc. 
+
 Some of the above are also examples in the core Triton repo...what's the difference?   
 Generically and from an optionated view, the examples in the core repo tend to put too much, too soon into the examples obfuscating the core lessons one should take from it (again, biased opinion lol).   
 We'll stick with simpler versions that allow the core tenets of kernel programming to shine through, bypassing autotuning, certain cache optimizations, and other aspects and pull them in with later lessons.   
