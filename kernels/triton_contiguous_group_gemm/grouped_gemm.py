@@ -4,10 +4,11 @@
 # This source code is licensed under the BSD-style license found in the
 # LICENSE file in the root directory of this source tree.
 
+# Credit: Less Wright (Meta) and Adnan Hoque (IBM)
+
 import triton
 import triton.language as tl
 import torch
-
 
 @triton.jit
 def _compute_pid(tile_id, num_pid_in_group, num_pid_m, super_group_m):
